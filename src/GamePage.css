@@ -1,0 +1,46 @@
+.BoxArt{
+    text-align: center;
+    max-height:300px;
+    max-width:300px;
+  }
+
+  .big {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .smalls {
+    text-align: center;
+    width: 100%;
+    display: flex;
+  }
+
+  .small {
+    flex: 1;
+  }
+
+  .small > h3 {
+    font-size: 20px;
+  }
+
+  .small > p {
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+
+  .all-trophies {
+    margin-bottom:20px;
+  }
+
+  .stats {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+ 

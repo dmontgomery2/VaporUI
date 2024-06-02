@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+}
+
+.linkButton {
+  border-width: 0;
+  color: rgb(13, 110, 253);
+  text-decoration: underline;
+  padding: 0;
+  background-color:rgb(168, 168, 255);
+}
+
+.linkButton:hover {
+  color: rgb(10, 88, 202);
+}
+
+.App {
+  height:3000px;
+  background-color:rgb(168, 168, 255);
+  color: rgb(0, 1, 20);
+  padding: 20px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.FriendRequestReceived{
+  display:flex;
+}
+
+.TextBox {
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right: 20px;
+}
+
+
+.Pagination{
+  text-align:left;
+}
+
+.GamesSearched{
+  margin-top:50px;
+}
+
+.section{
+  float:left;
+  width: 100%;
+}
+
+.ProfilePicture{
+  margin-left:20px;
+  margin-top:15px;
+  margin-bottom:15px;
+  max-height:200px;
+  max-width:200px;
+}
+
+.vapor-logo{
+  position:absolute;
+  right:50px;
+  
+}
+
+.page{
+  position: absolute;
+  right: 300px;
+}
+
+.HomeHeader{
+  display: flex;
+}
+
+.neutral-button{
+  background-color:rgb(168, 168, 255);
+  color: rgb(0, 1, 20);
+}
+.selected-button{
+  background-color:rgb(0, 1, 20);
+  color:rgb(168, 168, 255);
+}
+
+
+
+.Input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Card{
+    min-width: 300px;
+    border-radius:15px;
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:30px;
+    margin-left:20px;
+    margin-right:20px;
+    justify-self:center;
+    text-align:center;
+    font-size:22px;
+    width:25%;
+    height:25%;
+    background-color:rgb(0, 1, 20);
+    color:white;
+    transition-duration: 250ms;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.45);
+}
+
+.Card:hover{
+  scale: 1.07;
+  box-shadow: 10px 10px 25px rgba(0,0,0,0.35);
+
+}
+
+.HomeCards{
+  margin-top:100px;
+}
+
+.page-item{
+  color:black;
+}
+
+.CardDetail{
+    margin-top:20px;
+    font-size:15px;
+    color:rgb(168, 168, 255);
+}
+
+.searchBar{
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  background-color: rgb(0, 1, 20);
+}
+
